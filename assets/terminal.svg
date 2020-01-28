@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 104 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="44.6808511%" x2="100%" y2="44.6808511%" id="linearGradient-1">
+            <stop stop-color="#77767B" offset="0%"></stop>
+            <stop stop-color="#C0BFBC" offset="5%"></stop>
+            <stop stop-color="#9A9996" offset="9.999998%"></stop>
+            <stop stop-color="#9A9996" offset="89.999938%"></stop>
+            <stop stop-color="#C0BFBC" offset="94.999999%"></stop>
+            <stop stop-color="#77767B" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="98.4295819%" gradientTransform="translate(0.500000,0.000000),scale(0.886364,1.000000),rotate(90.000000),scale(1.000000,1.149161),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#241F31" offset="0%"></stop>
+            <stop stop-color="#2C2442" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="GNOME_Terminal_icon_2019" fill-rule="nonzero">
+            <rect id="rect953" fill="url(#linearGradient-1)" x="0" y="10" width="104" height="94" rx="7"></rect>
+            <rect id="rect950-2" fill="#DEDDDA" x="0" y="0" width="104" height="96" rx="7"></rect>
+            <rect id="rect1004" fill="#241F31" transform="translate(52.000000, 48.000016) scale(-1, 1) rotate(-180.000000) translate(-52.000000, -48.000016) " x="4" y="4.000031" width="96" height="87.999969" rx="4"></rect>
+            <rect id="rect968" fill="url(#radialGradient-2)" transform="translate(52.000000, 49.000000) rotate(180.000000) translate(-52.000000, -49.000000) " x="8" y="10" width="88" height="78"></rect>
+            <g id="g976" transform="translate(16.000000, 17.000000)" fill="#FFFFFF">
+                <polygon id="path972" points="14.012301 7.88755 0 0.27182 0 5 9.710724 9.62951 9.710724 9.77171 0 15 0 19.72818 14.012301 11.51367"></polygon>
+                <polygon id="path974" points="17.999998 23 18 27 34.00001 27 34.000008 23"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 110 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>html</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="html" fill-rule="nonzero">
+            <polygon id="Path" fill="#E44D26" points="10.037 112.876 0.032 0.661 109.968 0.661 99.952 112.859 54.933 125.339"></polygon>
+            <polygon id="Path" fill="#F16529" points="55 115.8 91.378 105.714 99.937 9.836 55 9.836"></polygon>
+            <path d="M55,51.455 L36.788,51.455 L35.53,37.361 L55,37.361 L55,23.599 L20.489,23.599 L20.819,27.291 L24.201,65.218 L55,65.218 L55,51.455 Z M55,87.198 L54.939,87.215 L39.612,83.075 L38.633,72.1 L24.816,72.1 L26.744,93.709 L54.937,101.535 L55,101.518 L55,87.198 Z" id="Shape" fill="#EBEBEB"></path>
+            <path d="M54.952,51.455 L54.952,65.218 L71.899,65.218 L70.302,83.067 L54.952,87.21 L54.952,101.529 L83.167,93.709 L83.374,91.384 L86.608,55.151 L86.943,51.455 L83.235,51.455 L54.952,51.455 Z M54.952,23.599 L54.952,37.361 L88.196,37.361 L88.472,34.269 L89.1,27.291 L89.429,23.599 L54.952,23.599 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
