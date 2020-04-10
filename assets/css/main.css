@@ -4615,7 +4615,7 @@ sub, sup {
 
 .down {
     position: absolute;
-    bottom: 25px;
+    bottom: 50px;
     width: 100%;
     margin: 0 auto;
     display: block;
