@@ -4502,7 +4502,7 @@ sub, sup {
 }
 
 .hero-image {
-    background-image: url("/assets/breadhead.png");
+    background-image: url("/assets/breadhead.svg");
   
     height: 100vh;
   
