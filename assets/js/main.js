@@ -1,12 +1,3 @@
-function showMenu() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-};
-
 document.addEventListener("DOMContentLoaded", function() {
     new SweetScroll({});
     particlesJS("particles-js", {
