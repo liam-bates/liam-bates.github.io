@@ -5,7 +5,7 @@ function showMenu() {
     } else {
       x.className = "topnav";
     }
-}
+};
 
 document.addEventListener("DOMContentLoaded", function() {
     new SweetScroll({});
