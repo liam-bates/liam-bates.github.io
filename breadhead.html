@@ -11,13 +11,14 @@
       <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
    </head>
    <body>
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html">Liam Bates</a></li>
-        <li><a class="active" href="breadhead.html">Breadhead</a></li>
-        <li><a href="seasoneats.html">SeasonEats</a></li>
-      </ul>
-    </div>
+      <div class="topnav" id="myTopnav">
+         <a href="index.html">Liam Bates</a>
+         <a class="active" href="breadhead.html">Breadhead</a>
+         <a href="seasoneats.html">SeasonEats</a>
+         <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+            <i class="fa fa-bars"></i>
+         </a>
+      </div>
       <div class="hero-image">
          <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
       </div>
@@ -39,6 +40,7 @@
          <p>Copyright © 2020 Liam Bates</p>
       </footer>
       <script src="/assets/js/sweet-scroll.min.js"></script>
+      <script src="assets/js/main.js"></script>
       <script>document.addEventListener("DOMContentLoaded", function() { new SweetScroll({}); }, !1);</script>
    </body>
 </html>

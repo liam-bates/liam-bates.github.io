@@ -13,12 +13,13 @@
 </head>
 
 <body>
-    <div class="navbar">
-        <ul>
-            <li><a href="index.html">Liam Bates</a></li>
-            <li><a href="breadhead.html">Breadhead</a></li>
-            <li><a class="active" href="seasoneats.html">SeasonEats</a></li>
-        </ul>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Liam Bates</a>
+        <a href="breadhead.html">Breadhead</a>
+        <a class="active" href="seasoneats.html">SeasonEats</a>
+        <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+           <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div class="hero-eats">
         <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
@@ -44,6 +45,7 @@
         <p>Copyright © 2020 Liam Bates</p>
     </footer>
     <script src="/assets/js/sweet-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             new SweetScroll({});
