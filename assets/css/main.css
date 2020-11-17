@@ -4538,27 +4538,25 @@ sub, sup {
     height:95vh !important
 }
 
-.hero-image {
-    background-image: url("/assets/svg/breadhead.svg");
-  
+.hero {
     min-height: 95vh;
     height:95vh !important;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* position: relative; */
-  }
+}
 
-  .hero-eats {
+.hero-breadhead {
+    background-image: url("/assets/svg/breadhead.svg");
+}
+
+.hero-eats {
     background-image: url("/assets/seasoneats-hero.png");
-  
-    min-height: 95vh;
-    height:95vh !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* position: relative; */
-  }
+}
+
+.hero-plant {
+    background-image: url("/assets/plantminder-hero.png");
+}
 
 .header {
     font-family: 'Montserrat', sans-serif;

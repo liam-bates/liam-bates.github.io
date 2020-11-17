@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PlantMinder</title>
+    <meta name="description" content="PlantMinder App">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Liam Bates</a>
+        <a href="breadhead.html">Breadhead</a>
+        <a href="seasoneats.html">SeasonEats</a>
+        <a class="active" href="plantminder.html">PlantMinder</a>
+        <a href="javascript:void(0);" class="icon" onclick="showMenu()">
+           <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="hero hero-plant">
+        <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+    </div>
+    <section id="about">
+        <div class="user-details">
+            <h1>About</h1>
+            <p>Inspired by traditional plant journals, PlantMinder takes the hassle out of managing your plant's needs.</p>
+            <p>- Add your plants and basic information to the app, including photos and notes.</p>
+            <p>- Get notified when you need to water, mist or fertilize your plant.</p>
+            <p>- Use the journal to keep track of your plants growth and health.</p>
+            <!-- <a href="https://apps.apple.com/us/app/seasoneats/id1514000104?ls=1" style="display:inline-block;overflow:hidden;background:url(assets/svg/app_store.svg) no-repeat;width:135px;height:40px;"></a> -->
+            <h1>Support</h1>
+            <p>If you require any support please contact me at <a aria-label="Support Email" href="mailto:support@liam-bates.com">support@liam-bates.com</a> and I will look into the issue for you.</p>
+
+            <h1>Development</h1>
+            <p>PlantMinder is built upon SwiftUI and Core Data. All graphical assets and design were also handled by me.</p>
+            </div>
+    </section>
+    <footer class="footer">
+        <p>Copyright © 2020 Liam Bates</p>
+    </footer>
+    <script src="assets/js/show-menu.js"></script>
+    <script src="/assets/js/sweet-scroll.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new SweetScroll({});
+        }, !1);
+    </script>
+</body>
+
+</html>
