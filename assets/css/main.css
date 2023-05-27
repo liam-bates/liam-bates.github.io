@@ -1,6 +1,111 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Raleway);
-@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Josefin+Slab|Antic+Slab);
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-BlackItalic.woff2) format('woff2'),
+        url(../fonts/SourceSansPro-BlackItalic.woff2) format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-ExtraLightItalic.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-ExtraLightItalic.woff2) format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-BoldItalic.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-BoldItalic.woff2) format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Bold.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-Bold.woff2) format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Black.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-Black.woff2) format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-ExtraLight.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-ExtraLight.woff2) format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-LightItalic.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-LightItalic.woff2) format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Italic.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-Italic.woff2) format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Light.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-Light.woff2) format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-Regular.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-Regular.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-SemiBold.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-SemiBold.woff2) format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url(../fonts/SourceSansPro-SemiBoldItalic.woff2') format('woff2'),
+        url(../fonts/SourceSansPro-SemiBoldItalic.woff2) format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
 button, hr, input {
     overflow:visible
 }
@@ -107,7 +212,7 @@ svg:not(:root) {
 }
 
 button, input, optgroup, select, textarea {
-    font-family: sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 100%;
     line-height: 1.15;
     margin:0
@@ -4369,7 +4474,7 @@ body {
     font-size: 100%;
     line-height: 1.5;
     color: #555;
-    font-family: 'Antic Slab', serif
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 article, aside, figcaption, figure, footer, header, nav, section {
@@ -4390,6 +4495,7 @@ article, aside, figcaption, figure, footer, header, nav, section {
     padding: 14px 16px;
     text-decoration: none;
     float: left;
+    font-weight: 600;
     /* display: block;
     color: #f2f2f2;
     text-align: center;
@@ -4442,11 +4548,11 @@ article, aside, figcaption, figure, footer, header, nav, section {
 
 a {
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
     color: #333;
 }
 
-h1, h2, h3, h4, stong {
+h1, h2, h3, h4, strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
@@ -4573,9 +4679,10 @@ sub, sup {
 
 .header .site-title {
     font-size: 50px;
+    font-weight: 500;
     display: block;
     line-height: 1;
-    color:#fff
+    color:#ffff
 }
 
 @media only screen and (min-width: 768px) {
@@ -4587,6 +4694,7 @@ sub, sup {
 
 .header .site-description {
     font-size: 20px;
+    font-weight: 300;
     display: block;
     line-height: 1;
     color: #fff;
@@ -4712,10 +4820,11 @@ sub, sup {
 .tech {
     margin: 10px;
     flex: 1 1 250px;
+    font-weight: 300;
 }
 
 .tech h2, .tech h3, .user-details h1, body {
-    font-weight:400
+    font-weight: 600
 }
 
 .user {
@@ -4728,7 +4837,8 @@ sub, sup {
 }
 
 .user p {
-    font-size:16px
+    font-size:16px;
+    margin-bottom: 0%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -4742,6 +4852,7 @@ sub, sup {
     text-align: center;
     margin:5px auto;
     padding-bottom: 1em;
+    font-weight: 300;
 }
 
 .footer {
@@ -4749,7 +4860,8 @@ sub, sup {
     padding: 10px 0;
     margin-top: 100px;
     text-align: center;
-    color:#fff
+    color:#fff;
+    font-weight: 300;
 }
 
 .footer a {
